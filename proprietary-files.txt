@@ -1,7 +1,6 @@
-# All unpinned blobs below are extracted from nio_retcn S1RN32.55-16-2
+# All unpinned blobs below are extracted from nio_retcn S1RN32.55-16-13
 
 # ACDB
-vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/General_cal.acdb
 vendor/etc/acdbdata/Global_cal.acdb
@@ -9,6 +8,7 @@ vendor/etc/acdbdata/Handset_cal.acdb
 vendor/etc/acdbdata/Hdmi_cal.acdb
 vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
+vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Camera
 vendor/lib/libcamxexternalformatutils.so
@@ -159,10 +159,31 @@ vendor/firmware/CAMERA_ICP.elf
 # Display (Calibration Data)
 vendor/etc/qdcm_calib_data_mipi_mot_vid_tm_1080x2520_670.xml
 
+# Fingerprint
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc
+vendor/bin/hw/fpc_ident:vendor/bin/fpc_ident
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc
+vendor/lib64/com.fingerprints.extension@1.0.so
+vendor/lib64/libets_fp_et5.so
+vendor/lib64/libets_teeclient.so
+vendor/lib64/vendor.egistec.hardware.fingerprint@2.0.so
+
+# NFC
+vendor/lib64/libpn557_fw.so
+
+# Sensor-configs
+vendor/etc/sensors/config/icm4x6xx_0.json
+vendor/etc/sensors/config/lsm6ds3c_0.json
+vendor/etc/sensors/config/vcnl36866_0.json
+
 # Thermal
 vendor/etc/thermal-engine-nio.conf
 
 # Touchscreen firmware
-vendor/firmware/novatek_ts_fw.bin
-vendor/firmware/novatek_ts_mp.bin
 vendor/firmware/NT36xxx_MP_Setting_Criteria_6029.csv
+vendor/firmware/novatek_ts_fw.bin
+vendor/firmware/novatek_ts_fw.bin:vendor_ramdisk/lib/firmware/novatek_ts_fw.bin
+vendor/firmware/novatek_ts_mp.bin
+vendor/firmware/novatek_ts_mp.bin:vendor_ramdisk/lib/firmware/novatek_ts_mp.bin
