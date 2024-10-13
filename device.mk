@@ -44,3 +44,6 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product-if-exists, vendor/motorola/nio/nio-vendor.mk)
 
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
+# Vendor Dolby
+$(call inherit-product, vendor/dolby/dolby.mk)
