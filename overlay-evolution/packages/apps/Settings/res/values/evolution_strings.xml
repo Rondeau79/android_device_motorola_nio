@@ -8,4 +8,5 @@
 
     <!-- Android version screen, build maintainer -->
     <string name="build_maintainer_summary" translatable="false">Rondeau79</string>
+</resources>
     
