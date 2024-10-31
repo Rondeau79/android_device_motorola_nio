@@ -46,6 +46,3 @@ $(call inherit-product-if-exists, vendor/motorola/nio/nio-vendor.mk)
 
 #Viper4Android
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
-
-#Dolby
-$(call inherit-product-if-exisis, hardware/motorola/dolby/setup.mk)
