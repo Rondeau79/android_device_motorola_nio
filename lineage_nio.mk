@@ -7,8 +7,8 @@
 # Inherit from nio device
 $(call inherit-product, device/motorola/nio/device.mk)
 
-$ Inherit some common Evolution X stuff
-include device/motorola/nio/device-evolution.mk
+# Inherit some common Evolution X stuff
+$(call inherit-product, device/motorola/nio/device-evolution.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_nio
