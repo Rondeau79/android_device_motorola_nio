@@ -6,4 +6,4 @@
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/nio/overlay-evolution
 
-# (call inherit-product, $device/motorola/nio/device-evolution.mk)
+$(call inherit-product, device/motorola/nio/device-evolution.mk)
