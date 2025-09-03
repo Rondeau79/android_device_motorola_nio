@@ -1,6 +1,32 @@
-[
-  {
-    "repository": "android_device_motorola_sm8250-common",
-    "target_path": "device/motorola/sm8250-common"
-  }
+{ 
+   "repository": "Evolution-X-Devices/device_motorola_sm8250-common",
+   "target_path": "device/motorola/sm8250-common",
+   "branch": "bka"
+},
+{
+   "repository": "Evolution-X-Devices/kernel_motorola_sm8250",
+   "target_path": "kernel/motorola/sm8250",
+   "branch": "bka"
+ },
+ {
+   "repository": "Evolution-X-Devices/proprietary_vendor_motorola_sm8250-common",
+   "target_path": "vendor/motorola/sm8250-common",
+   "branch": "lineage-23.0"
+ },
+ {
+   "repository": "Evolution-X-Devices/proprietary_vendor_motorola_nio",
+   "target_path": "vendor/motorola/nio",
+   "branch": "lineage-23.0"
+ },
+ {
+   "repository": "Evolution-X-Devices/hardware_motorola",
+   "target_path": "hardware/motorola",
+   "branch": "bka-bak"
+ },
+ {
+   "repository": "https://github.com/Evolution-X-Devices/packages_apps_ViPER4AndroidFX".
+   "target_path": "packages/apps/ViPER4AndroidFX",
+   "branch": "bka"
+ }
 ]
+  
